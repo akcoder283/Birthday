@@ -8,8 +8,8 @@ fabric.Image.fromURL('BirthdayImage.jpg', function(Img){
     block_image_object.scaleToWidth(700);
     block_image_object.scaleToHeight(510);
     block_image_object.set({
-        top:0
-        Left:0
+        top:0,
+        left:0
     });
     canvas.add(block_image_object)
 });	
@@ -17,5 +17,4 @@ fabric.Image.fromURL('BirthdayImage.jpg', function(Img){
 }
 
 function playSound(){
-x.play('bdayaudio.mp3');	
-}
+x.play()}
